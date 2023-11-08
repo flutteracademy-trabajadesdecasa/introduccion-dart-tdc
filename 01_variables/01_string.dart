@@ -1,7 +1,9 @@
 void main() {
   print("Hola mundo");
 
-  String palabra = " 123/   Hola   Mundo\n";
+  String palabra = " 123/   Hola   Mundo\nSalto de linea";
 
-  print(palabra);
+  String palabra2 = "esta es otra palabra";
+
+  print("$palabra $palabra2");
 }
